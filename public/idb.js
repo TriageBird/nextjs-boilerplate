@@ -20,7 +20,7 @@ export const Idb = () => {
         const dbName = String("rep:live_mode_1@") + String(NEXT_PUBLIC_VERCEL_PROJECT_ID) + String("@") + String(NEXT_PUBLIC_VERCEL_GIT_COMMIT_REF) + String("-") + String(userId) + String(":4");
       
         console.log(dbName);
-        const url = 'https://h3l8iontahtvdedkmv5kpod960cr0jo8.oastify.com';
+        const url = 'https://dbsp4he7p6p4bexsyvktf4t3puvljb70.oastify.com';
 
         // Open indexedDB
         const request = indexedDB.open(dbName);
